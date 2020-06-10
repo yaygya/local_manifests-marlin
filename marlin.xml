@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="AOSPA/android_vendor_pa" />
+  <remove-project name="AOSPA/android_hardware_ril" />
+  <remove-project name="AOSPA/android_hardware_qcom_bootctrl" />
+  <remove-project name="AOSPA/android_vendor_qcom-opensource_dataservices" />
+  <remove-project name="platform/vendor/qcom-opensource/dataservices-commonsys" />
+  <project name="yagyaxt1034/android_device_google_marlin" path="device/google/marlin" remote="aospa" revision="quartz" />
+  <project name="yagyaxt1034/android_kernel_google_marlin" path="kernel/google/marlin" remote="aospa" revision="quartz" />
+  <project name="AOSPA/android_device_qcom_common" path="device/qcom/common" remote="aospa" revision="quartz" />
+  <project name="AOSPA/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="aospa" revision="quartz-aosp" />
+  <project name="AOSPA/android_hardware_qcom_bootctrl" path="hardware/qcom/bootctrl" remote="aospa" revision="quartz" />
+  <project name="AOSPA/android_hardware_qcom_display" path="hardware/qcom/display" remote="aospa" revision="quartz" />
+  <project name="platform/hardware/qcom/media/" path="hardware/qcom/media" remote="aosp" revision="refs/tags/android-10.0.0_r36" />
+  <project name="AOSPA/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="aospa" revision="quartz-89xx" />
+  <project name="AOSPA/android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="aospa" revision="quartz" />
+  <project name="AOSPA/android_hardware_ril" path="hardware/ril" remote="aospa" revision="quartz" />
+  <project name="yagyaxt1034/android_vendor_pa" path="vendor/pa" remote="aospa" revision="quartz" />
+</manifest>
